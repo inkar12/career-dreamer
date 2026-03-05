@@ -29,6 +29,10 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
+        <Script
+          src="https://code.tidio.co/iefq0f1tpsf12bkt84hkcoptdverpoyh.js"
+          strategy="lazyOnload"
+        />
       </body>
     </html>
   );
